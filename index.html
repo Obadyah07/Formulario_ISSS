@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Banco de Sangre ISSS</title>
+    <link href="css/estilos.css" rel="stylesheet">
+    <link rel="icon" href="img/Logo.ico">
+</head>
+
+<div class="posicion">
+    <header>
+        <center>
+            <img src="img/Logo Seguro Social.jpeg">
+            <h1>Banco de Sangre ISSS</h1>
+        </center>
+    </header>
+</div>
+
+
+<br>
+
+<body>
+    <style>
+        body {
+            background-image: url("img/fondo de pag.jpg");
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+    </style>
+
+    <div class="cuadro">
+        <h2>Donación de sangre para un Paciente</h2>
+        <p class="paragraph"><strong>15 minutos</strong></p>
+    </div>
+
+    <br>
+
+    <form>
+
+        <div class="fondo_1">
+            <fieldset>
+
+                <center>
+                    <legend><strong>Agregue sus detalles</strong></legend>
+                </center>
+
+                <label for="nombre"><strong>Nombre:</strong></label>
+                <input type="text" class="myinput" id="nombre"  name="nombre" placeholder="Nombre *" required>
+
+        <br>
+        <br>
+                <label for="email"><strong>Email:</strong></label>
+                <input type="email" class="myinput" id="email" name="email" placeholder="Correo electrónico *" required>
+            </fieldset>
+        </div>
+
+        <br>
+
+        <div class="fondo_2">
+            <fieldset>
+                <center>
+                    <legend><strong>Proporciona información adicional</strong></legend>
+                </center>
+
+                <label for="number"><strong>Número de DUI de Donante:</strong></label>
+                <input type="number" class="myinput" id="number" name="number" required>
+            <br>
+            <br>
+                <label for="donor_gender"><strong>Sexo del Donante:</strong></label>
+            <br>
+            <br>
+                <input type="radio" id="male" name="donor_gender" value="male" required>
+                <label for="male">Masculino</label>
+                <input type="radio" id="female" name="donor_gender" value="female">
+                <label for="female">Femenino</label>
+            <br>
+            <br>
+                <label for="text"><strong>Ocupación de Donante: (Opcional)</strong></label>
+                <input type="text" class="myinput" id="text" name="text">
+            <br>
+            <br>
+                <label for="number"><strong>Teléfono de contacto del Donante:</strong></label>
+                <input type="number" class="myinput" id="number" name="number" required>
+            <br>
+            <br>
+                <label for="text"><strong>Nombre completo del Paciente:</strong></label>
+                <input type="text" class="myinput" id="text" name="text" required>
+            <br>
+            <br>
+                <label for="number"><strong>Número de Afiliación o DUI de Paciente:</strong></label>
+                <input type="number" class="myinput" id="number" name="number" required>
+            </fieldset>
+        </div>
+    </for>
+
+    <br>
+        <div class="ltr">
+        <p><strong> Estoy de acuerdo con Terminos y Condiciones</strong></p>
+        </div>
+      
+        <a class="button-link" href= "clon_pagina.html">Reservar</a>
+          
+</body>
+
+<footer>
+    <p><span><strong>Anyelo Soriano Freelancer</strong></span></p>
+</footer>
+
+</html>
